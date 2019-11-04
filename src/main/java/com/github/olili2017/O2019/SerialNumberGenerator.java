@@ -13,6 +13,7 @@ public class SerialNumberGenerator {
     private Random random = new SecureRandom();
 
     public SerialNumberGenerator() {
+
     }
 
     /**
@@ -55,10 +56,11 @@ public class SerialNumberGenerator {
         return alphabets.charAt(random.nextInt(LENGTH));
     }
 
-    /*
-    generates random char string
+    /**
+     * Generates random char string
      */
     public String generate(){
+
         StringBuilder serial = new StringBuilder();
 
 //        check if need splitting serial number
