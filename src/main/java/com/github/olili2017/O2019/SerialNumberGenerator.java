@@ -12,12 +12,6 @@ public class SerialNumberGenerator {
     private int LENGTH = 4;
     private Random random = new SecureRandom();
 
-    public static void main(String[] args){
-        System.out.println(new SerialNumberGenerator(16)
-                .split(4,'-')
-                .generate());
-    }
-
     public SerialNumberGenerator() {
 
     }
