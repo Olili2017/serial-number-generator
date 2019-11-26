@@ -9,15 +9,21 @@ public class SerialNumberGenerator {
     private int splitInto = 1;
     private char splitter = '-';
     private boolean isToSplit = false;
-    private int LENGTH = 8;
+    private int LENGTH = 4;
     private Random random = new SecureRandom();
+
+    public static void main(String[] args){
+        System.out.println(new SerialNumberGenerator(16)
+                .split(4,'-')
+                .generate());
+    }
 
     public SerialNumberGenerator() {
 
     }
 
     /**
-     * Generates random serial number on te fry
+     * Generates random serial number on the fry
      * @param length Defines how long your serial number can be
      */
     public SerialNumberGenerator(int length){
