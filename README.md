@@ -27,7 +27,7 @@ Step 2: Add the dependency
 <dependency>
 	<groupId>com.github.Olili2017</groupId>
 	<artifactId>serial-number-generator</artifactId>
-	<version>v1.0.0</version>
+	<version>1.0.1</version>
 </dependency>
 ```
 
@@ -48,7 +48,7 @@ Step 2: Add the dependency
 
 ```gradle
 dependencies {
-	implementation 'com.github.Olili2017:serial-number-generator:v1.0.0'
+	implementation 'com.github.Olili2017:serial-number-generator:1.0.1'
 }
 ```
 
